@@ -146,6 +146,8 @@ app = Dash(
     name='Dashboard - Pengiriman'
     )
 
+server=app.server
+
 app.title = 'Dashboard - Pengiriman'
 
 navbar = dbc.NavbarSimple(
